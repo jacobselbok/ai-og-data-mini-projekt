@@ -11,7 +11,7 @@ def create_connection(path):
         print(f"The error '{e}' occurred")
 
     return connection
-connection = create_connection("school.db")
+connection = create_connection(r"lektion 2\school.db")
 
 # Opgave 2
 def execute_query(connection, query):
